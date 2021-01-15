@@ -140,13 +140,16 @@
 
 .slider {
   display: flex;
+  position: relative;
   flex-direction: column;
   margin: 0 auto;
+  min-width: 0;
 }
 
 .slider__banners {
   background-color: #7A3C97;
   height: 670px;
+  min-width: 0;
 }
 
 .slider__die {
